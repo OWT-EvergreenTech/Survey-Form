@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">EvergreenTech Survey</h1>
+    <p id="description"> Fill the form below to join the club</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Name<input placeholder="Enter your name" required id="name" type="text" ></label>
+      <label id="email-label">Email <input placeholder=" Enter your email" required id="email" type="email" ></label>
+      <label id="number-label" >Age<input min="18" max="120"placeholder="Enter your Age " required id="number" type="number" ></label>
+<label>Which option best describes your current role?
+<select id="dropdown">
+  <option value="option1"> </option>
+  <option value="option2"> </option>
+  <option value="option3"> </option>
+</select>
+<legend>Choose one:</legend>
+    <input type="radio" id="radio1" name="radioGroup" value="option1">
+    <label for="radio1">Option 1</label>
+    <input type="radio" id="radio2" name="radioGroup" value="option2">
+    <label for="radio2">Option 2</label>
+    <input type="radio" id="radio3" name="radioGroup" value="option3">
+    <label for="radio2">Option 3</label>
+     <legend>Choose multiple:</legend>
+    <input type="checkbox" id="checkbox1" name="checkboxGroup" value="option1">
+    <label for="checkbox1">Option 1</label>
+    <input type="checkbox" id="checkbox2" name="checkboxGroup" value="option2">
+    <label for="checkbox2">Option 2</label>
+    <input type="checkbox" id="checkbox3" name="checkboxGroup" value="option3">
+    <label for="checkbox3">Option 3</label>
+<label for="comments">Additional comments:</label>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+</fieldset>
+<button type="submit" id="submit">Submit</button>
+    </form>
+</label>
+  </body>
+</html>
